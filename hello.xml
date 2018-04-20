@@ -11,7 +11,7 @@
      <output value="$MyNumbers"/>
    </input>
    
-   <input pattern="$Text {[$Date] [$Time]}" id="reminder">
+   <input pattern="($Date| $Time)" id="reminder">
       <var name="MyATime" value='$Date'/>
    <input/>
 
