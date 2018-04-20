@@ -2,5 +2,11 @@
    <input pattern="( ) *">
     <output value="kya hal hai $req_user_firstname?? sab bdiya :-)" />
    </input>
+   
+   <input pattern="repeat($Number)">
+     <var name="MyNumbers" value='join($Number, " ")'/>
+     <output value="$MyNumbers"/>
+   </input>
+
 </context>
    
