@@ -11,8 +11,12 @@
      <output value="$MyNumbers"/>
    </input>
    
-   <input pattern="($Date| $Time)" id="reminder">
-      <output value="$Date $Time"/>
+   <input pattern="* ($Time) *" id="reminder">
+      <output value="$Time"/>
+   </input>
+   
+    <input pattern="* ($Date) *" id="reminder">
+      <output value="$Date"/>
    </input>
 
 </context>
