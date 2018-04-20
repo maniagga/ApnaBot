@@ -18,6 +18,12 @@
     <input pattern="* ($Date) *" id="reminder">
       <output value="$Date"/>
    </input>
+   
+   <input pattern="api">
+         <get url="https://jsonplaceholder.typicode.com/posts/1" var="post">
+             <output value='get(bosy,$post)/>'
+         </get>
+   </input>
 
 </context>
    
