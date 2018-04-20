@@ -7,6 +7,10 @@
      <var name="MyNumbers" value='join($Number, " ")'/>
      <output value="$MyNumbers"/>
    </input>
+   
+   <input pattern="$Text {[$Date] [$Time]}" id="reminder">
+      <var name="MyATime" value='$Date'/>
+   <input/>
 
 </context>
    
