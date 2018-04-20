@@ -12,7 +12,7 @@
    </input>
    
    <input pattern="($Date| $Time)" id="reminder">
-      <var name="MyATime" value='$Date'/>
+      <output value="$Date $Time"/>
    <input/>
 
 </context>
