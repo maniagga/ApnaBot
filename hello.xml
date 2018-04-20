@@ -13,7 +13,7 @@
    
    <input pattern="($Date| $Time)" id="reminder">
       <output value="$Date $Time"/>
-   <input/>
+   </input>
 
 </context>
    
