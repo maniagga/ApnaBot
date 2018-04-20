@@ -1,6 +1,6 @@
 <context>
    <input pattern="( ) *">
-    <output value="kya hal hai../>
+    <output value="kya hal hai.." />
    </input>
 </context>
    
