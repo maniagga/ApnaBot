@@ -3,6 +3,9 @@
     <output value="kya hal hai $req_user_firstname?? sab bdiya :-)" />
    </input>
    
+   <input pattern="$Number">
+     <output value="$Number"/>
+   </input>
    <input pattern="repeat($Number)">
      <var name="MyNumbers" value='join($Number, " ")'/>
      <output value="$MyNumbers"/>
