@@ -1,6 +1,6 @@
 <context>
    <input pattern="( ) *">
-    <output value="kya hal hai $req_user_firstname?? sab bdiya :-)" />
+    <output value="kya hal hai $req_user_firstname?? sab bdiya.." />
    </input>
    
    <input pattern="$Number">
@@ -20,10 +20,10 @@
    </input>
    
    <input pattern="api">
-         <get url="https://jsonplaceholder.typicode.com/posts/1" var="post">
+         <get url="https://jsonplaceholder.typicode.com/posts/1" var="details">
              
          </get>
-         <output value='get("body",$post)'/>
+         <output value='get("body",$details)'/>
    </input>
 
 </context>
