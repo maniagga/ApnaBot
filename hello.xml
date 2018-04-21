@@ -21,8 +21,9 @@
    
    <input pattern="api">
          <get url="https://jsonplaceholder.typicode.com/posts/1" var="post">
-             <output value='get("body",$post)'/>
+             
          </get>
+         <output value='get("body",$post)'/>
    </input>
 
 </context>
