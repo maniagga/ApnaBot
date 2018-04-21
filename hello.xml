@@ -25,7 +25,7 @@
          </get>
          
         
-         <output value='get("title",$details)'/>
+         <output value='$details'/>
 
    </input>
 
