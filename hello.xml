@@ -24,8 +24,8 @@
              
          </get>
          
-         <var name="Temp" value="javascript: details"/>
-         <output value="$Temp"/>
+        
+         <output value='get($details)'/>
 
    </input>
 
