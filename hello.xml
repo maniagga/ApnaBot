@@ -23,7 +23,9 @@
          <get url="https://jsonplaceholder.typicode.com/posts/1" var="details">
              
          </get>
-         <output value='get("body",$details)'/>
+         <var name="Temp" value="javascript: details.title"/>
+         <output value="$Temp"/>
+
    </input>
 
 </context>
