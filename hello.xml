@@ -20,7 +20,7 @@
    </input>
    
    <input pattern="api">
-         <get url="https://jsonplaceholder.typicode.com/posts" var="details">
+         <get url="https://jsonplaceholder.typicode.com/posts/1" var="details">
              
          </get>
          
